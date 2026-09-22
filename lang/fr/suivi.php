@@ -23,4 +23,9 @@ return [
         'en_attente' => 'En attente',
         'valide' => 'Validé',
     ],
+
+    'retrouver_titre' => 'Retrouver mon suivi',
+    'retrouver_intro' => 'Indiquez l\'email utilisé lors de votre demande, nous vous renverrons votre lien de suivi.',
+    'retrouver_envoyer' => 'Envoyer',
+    'retrouver_confirmation' => 'Si un dossier existe avec cet email, un lien de suivi vient de vous être envoyé.',
 ];

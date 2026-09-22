@@ -23,4 +23,9 @@ return [
         'en_attente' => 'In attesa',
         'valide' => 'Convalidato',
     ],
+
+    'retrouver_titre' => 'Ritrova il mio link',
+    'retrouver_intro' => 'Indica l\'email utilizzata per la tua richiesta, ti invieremo il tuo link di tracciamento.',
+    'retrouver_envoyer' => 'Invia',
+    'retrouver_confirmation' => 'Se esiste una pratica con questa email, un link è appena stato inviato.',
 ];

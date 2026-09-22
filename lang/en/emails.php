@@ -28,4 +28,11 @@ return [
         'salutation' => 'Hello :nom,',
         'suivi_intro' => 'You can follow the progress of your case at any time via this link:',
     ],
+
+    'retrouver_suivi' => [
+        'sujet' => 'Your tracking links',
+        'salutation' => 'Hello :nom,',
+        'intro' => 'Here are the link(s) to follow the progress of your case(s):',
+        'aucun_dossier' => 'No case found for this address.',
+    ],
 ];

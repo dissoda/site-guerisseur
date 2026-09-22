@@ -28,6 +28,7 @@ class TemoignagesTable
                     ->dateTime()
                     ->sortable(),
             ])
+            ->defaultSort('id', 'desc')
             ->filters([
                 //
             ])

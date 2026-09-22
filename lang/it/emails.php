@@ -28,4 +28,11 @@ return [
         'salutation' => 'Ciao :nom,',
         'suivi_intro' => 'Puoi seguire l\'avanzamento della tua pratica in qualsiasi momento tramite questo link:',
     ],
+
+    'retrouver_suivi' => [
+        'sujet' => 'I tuoi link di tracciamento',
+        'salutation' => 'Ciao :nom,',
+        'intro' => 'Ecco il/i link per seguire l\'avanzamento della/e tua/e pratica/che:',
+        'aucun_dossier' => 'Nessuna pratica trovata per questo indirizzo.',
+    ],
 ];

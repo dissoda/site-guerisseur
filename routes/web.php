@@ -25,6 +25,8 @@ Route::get('/services/{service:slug}', [ServiceController::class, 'show'])->name
 Route::get('/demande', [DemandeController::class, 'create'])->name('demande.create');
 Route::post('/demande', [DemandeController::class, 'store'])->name('demande.store');
 
+Route::get('/suivi/retrouver', [SuiviController::class, 'retrouverForm'])->name('suivi.retrouver');
+Route::post('/suivi/retrouver', [SuiviController::class, 'retrouverEnvoyer'])->name('suivi.retrouver.envoyer');
 Route::get('/suivi/{token}', [SuiviController::class, 'show'])->name('suivi.show');
 
 Route::get('/blog', [PublicationController::class, 'index'])->name('publications.index');

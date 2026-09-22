@@ -21,7 +21,7 @@ class PublicationResource extends Resource
 
     protected static ?string $model = Publication::class;
 
-    protected static string|BackedEnum|null $navigationIcon = Heroicon::OutlinedRectangleStack;
+    protected static string|BackedEnum|null $navigationIcon = Heroicon::OutlinedNewspaper;
 
     protected static ?string $recordTitleAttribute = 'titre';
 

@@ -23,4 +23,9 @@ return [
         'en_attente' => 'Oczekująca',
         'valide' => 'Zatwierdzona',
     ],
+
+    'retrouver_titre' => 'Odzyskaj mój link',
+    'retrouver_intro' => 'Podaj e-mail użyty przy zgłoszeniu, wyślemy Ci Twój link śledzenia.',
+    'retrouver_envoyer' => 'Wyślij',
+    'retrouver_confirmation' => 'Jeśli sprawa z tym e-mailem istnieje, link został właśnie wysłany.',
 ];

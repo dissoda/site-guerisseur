@@ -30,11 +30,15 @@ class MiseAJourForm
                     ->multiple()
                     ->image()
                     ->reorderable()
+                    ->disk('public')
+                    ->visibility('public')
                     ->directory('mises-a-jour/images'),
                 FileUpload::make('videos')
                     ->label('Vidéos')
                     ->multiple()
                     ->acceptedFileTypes(['video/mp4', 'video/quicktime'])
+                    ->disk('public')
+                    ->visibility('public')
                     ->directory('mises-a-jour/videos'),
             ]);
     }

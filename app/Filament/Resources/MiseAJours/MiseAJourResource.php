@@ -18,7 +18,7 @@ class MiseAJourResource extends Resource
 {
     protected static ?string $model = MiseAJour::class;
 
-    protected static string|BackedEnum|null $navigationIcon = Heroicon::OutlinedRectangleStack;
+    protected static string|BackedEnum|null $navigationIcon = Heroicon::OutlinedCamera;
 
     protected static ?string $recordTitleAttribute = 'message';
 

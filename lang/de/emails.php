@@ -28,4 +28,11 @@ return [
         'salutation' => 'Hallo :nom,',
         'suivi_intro' => 'Sie können den Fortschritt Ihres Anliegens jederzeit über diesen Link verfolgen:',
     ],
+
+    'retrouver_suivi' => [
+        'sujet' => 'Ihre Verfolgungslinks',
+        'salutation' => 'Hallo :nom,',
+        'intro' => 'Hier sind die Links, um den Fortschritt Ihres/Ihrer Anliegens/Anliegen zu verfolgen:',
+        'aucun_dossier' => 'Kein Anliegen für diese Adresse gefunden.',
+    ],
 ];

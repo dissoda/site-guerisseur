@@ -28,4 +28,11 @@ return [
         'salutation' => 'Bonjour :nom,',
         'suivi_intro' => 'Vous pouvez suivre l\'avancement de votre dossier à tout moment via ce lien :',
     ],
+
+    'retrouver_suivi' => [
+        'sujet' => 'Vos liens de suivi',
+        'salutation' => 'Bonjour :nom,',
+        'intro' => 'Voici le(s) lien(s) permettant de suivre l\'avancement de votre/vos dossier(s) :',
+        'aucun_dossier' => 'Aucun dossier trouvé pour cette adresse.',
+    ],
 ];

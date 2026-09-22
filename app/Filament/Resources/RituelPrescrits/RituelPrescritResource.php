@@ -18,7 +18,7 @@ class RituelPrescritResource extends Resource
 {
     protected static ?string $model = RituelPrescrit::class;
 
-    protected static string|BackedEnum|null $navigationIcon = Heroicon::OutlinedRectangleStack;
+    protected static string|BackedEnum|null $navigationIcon = Heroicon::OutlinedSparkles;
 
     protected static ?string $recordTitleAttribute = 'notes_guerisseur';
 

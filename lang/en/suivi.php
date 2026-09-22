@@ -23,4 +23,9 @@ return [
         'en_attente' => 'Pending',
         'valide' => 'Validated',
     ],
+
+    'retrouver_titre' => 'Find my tracking link',
+    'retrouver_intro' => 'Enter the email used for your request, we\'ll send you your tracking link.',
+    'retrouver_envoyer' => 'Send',
+    'retrouver_confirmation' => 'If a case exists with this email, a tracking link has just been sent to you.',
 ];

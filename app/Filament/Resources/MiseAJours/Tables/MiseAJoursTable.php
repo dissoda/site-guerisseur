@@ -30,6 +30,7 @@ class MiseAJoursTable
                     ->dateTime()
                     ->sortable(),
             ])
+            ->defaultSort('id', 'desc')
             ->filters([
                 //
             ])

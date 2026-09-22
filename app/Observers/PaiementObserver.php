@@ -10,14 +10,30 @@ use Illuminate\Support\Facades\Mail;
 class PaiementObserver
 {
     /**
+     * Se déclenche à la création d'un nouveau paiement.
+     */
+    public function created(Paiement $paiement): void
+    {
+        if ($paiement->statut === 'valide') {
+            $this->confirmerPaiement($paiement);
+        }
+    }
+
+    /**
      * Se déclenche à chaque modification d'un paiement existant.
      */
     public function updated(Paiement $paiement): void
     {
-        if (! $paiement->wasChanged('statut') || $paiement->statut !== 'valide') {
-            return;
+        if ($paiement->wasChanged('statut') && $paiement->statut === 'valide') {
+            $this->confirmerPaiement($paiement);
         }
+    }
 
+    /**
+     * Logique commune : met à jour le rituel, envoie l'email, trace la notification.
+     */
+    protected function confirmerPaiement(Paiement $paiement): void
+    {
         $rituelPrescrit = $paiement->rituelPrescrit;
         $dossier = $rituelPrescrit->dossier;
         $client = $dossier->client;

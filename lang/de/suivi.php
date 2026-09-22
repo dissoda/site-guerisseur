@@ -23,4 +23,9 @@ return [
         'en_attente' => 'Ausstehend',
         'valide' => 'Bestätigt',
     ],
+
+    'retrouver_titre' => 'Meinen Link wiederfinden',
+    'retrouver_intro' => 'Geben Sie die bei Ihrer Anfrage verwendete E-Mail ein, wir senden Ihnen Ihren Link.',
+    'retrouver_envoyer' => 'Senden',
+    'retrouver_confirmation' => 'Falls ein Anliegen mit dieser E-Mail existiert, wurde soeben ein Link gesendet.',
 ];

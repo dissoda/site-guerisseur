@@ -37,11 +37,15 @@ class PublicationForm
                     ->multiple()
                     ->image()
                     ->reorderable()
+                    ->disk('public')
+                    ->visibility('public')
                     ->directory('publications/images'),
                 FileUpload::make('videos')
                     ->label('Vidéos')
                     ->multiple()
                     ->acceptedFileTypes(['video/mp4', 'video/quicktime'])
+                    ->disk('public')
+                    ->visibility('public')
                     ->directory('publications/videos'),
                 Select::make('statut')
                     ->options([

@@ -18,7 +18,7 @@ class PaiementResource extends Resource
 {
     protected static ?string $model = Paiement::class;
 
-    protected static string|BackedEnum|null $navigationIcon = Heroicon::OutlinedRectangleStack;
+    protected static string|BackedEnum|null $navigationIcon = Heroicon::OutlinedBanknotes;
 
     protected static ?string $recordTitleAttribute = 'statut';
 
